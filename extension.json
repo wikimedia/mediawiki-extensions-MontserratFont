@@ -1,0 +1,22 @@
+{
+	"name": "MontserratFont",
+	"version": "1",
+	"author": [ "James Hare" ],
+	"url": "https://www.mediawiki.org/wiki/Extension:MontserratFont",
+	"description": "Adds the Montserrat web font",
+	"type": "other",
+	"license-name": "GPL-2.0-or-later",
+	"requires": {
+		"MediaWiki": ">= 1.29"
+	},
+	"ResourceModules": {
+		"ext.MontserratFont.webfont": {
+			"styles": "ext.MontserratFont.webfont.less"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "modules",
+		"remoteExtPath": "MontserratFont/modules"
+	},
+	"manifest_version": 1
+}
