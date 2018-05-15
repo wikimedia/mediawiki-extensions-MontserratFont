@@ -5,7 +5,7 @@
 	"url": "https://www.mediawiki.org/wiki/Extension:MontserratFont",
 	"description": "Adds the Montserrat web font",
 	"type": "other",
-	"license-name": "GPL-2.0-or-later",
+	"license-name": "GPL-2.0-or-later AND OFL-1.1",
 	"requires": {
 		"MediaWiki": ">= 1.29"
 	},
