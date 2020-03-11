@@ -20,9 +20,7 @@
 		}
 	},
 	"Hooks": {
-		"BeforePageDisplay": [
-			"MontserratFontHooks::onBeforePageDisplay"
-		]
+		"BeforePageDisplay": "MontserratFontHooks::onBeforePageDisplay"
 	},
 	"AutoloadClasses": {
 		"MontserratFontHooks": "includes/MontserratFontHooks.php"
