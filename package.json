@@ -1,4 +1,5 @@
 {
+	"name": "MontserratFont",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
